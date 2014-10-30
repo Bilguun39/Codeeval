@@ -9,7 +9,7 @@ import java.util.List;
 public class Main {
 	
 	public static void main(String[] args) throws IOException{
-		List<String> inputs = readFile("E:\\values.txt");
+		List<String> inputs = readFile(args[0]);
 		
 		int value = 0;
 		String result;
